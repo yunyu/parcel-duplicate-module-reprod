@@ -1,0 +1,14 @@
+{
+    "name": "parcel-duplicate-module-reprod",
+    "version": "1.0.0",
+    "license": "MIT",
+    "devDependencies": {
+        "inferno": "^3.10.1",
+        "inferno-component": "^3.10.1",
+        "parcel-bundler": "^1.5.0"
+    },
+    "scripts": {
+        "build": "parcel build --no-minify index.js",
+        "start": "node dist/index.js"
+    }
+}
