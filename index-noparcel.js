@@ -1,5 +1,5 @@
-import Inferno from 'inferno';
-import Component from 'inferno-component';
+const Inferno = require('inferno');
+const Component = require('inferno-component');
 
 // Should print false
 console.log(Inferno === Component);
